@@ -1,0 +1,1 @@
+Get-History | ? CommandLine -match "git" | % CommandLine > ex2.txt
